@@ -1,0 +1,568 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Poppins:ital,wght@1,200&family=Quicksand:wght@300&display=swap');
+
+
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
+.article {
+  height: 1200px;
+  width: 1000px;
+  margin: 15px auto;
+  background: white;
+  padding-right: 300px;
+  padding-left: 70px;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+
+.article p {
+  font-weight: bold;
+  margin-top: 35px;
+}
+
+.article .desc {
+  display: block;
+  margin-bottom: 100px;
+  font-size: 15px;
+  color: rgb(50, 50, 50);
+}
+
+
+
+.front {
+  background: url(https://img1.goodfon.com/wallpaper/nbig/4/6d/abstrakciya-minimalizm-fon-6148.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  margin-top: -10px;
+}
+
+
+
+
+
+
+.nav {
+  width: 90%;
+  height: 60px;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  font-family: 'Roboto Mono', monospace important;
+}
+
+
+
+.links {
+  height: 100%;
+  min-width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+.links img {
+  max-height: 100%;
+}
+
+
+
+
+
+.nav .left {
+  min-width: 10%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.nav .left img {
+  max-height: 50%;
+  margin: 10px;
+}
+
+.nav .middle {
+  min-width: 35%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.nav .middle a {
+  margin: 15px;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.nav .right {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.nav .right a {
+  margin: 15px;
+  text-decoration: none;
+}
+.youtube {
+  color: red;
+}
+
+.discord {
+  color: white;
+  min-width: 100px;
+  height: 30px;
+  background: blue;
+  padding: 4px;
+  box-sizing: content-box;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  font-weight: bold;
+  border: 1px blue;
+  font-family: "Poppins", sans-serif;
+}
+
+.discord:hover {
+  border-style: solid;
+  color: blue;
+  background: none;
+  border-bottom-color: blue;
+}
+
+.github {
+  color: white;
+}
+
+div {
+  border: solidd red;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Quicksand', cursive;
+
+}
+
+
+a:hover {
+  border-bottom: solid white 2px;
+}
+
+.greet {
+  width: 100%;
+  height: calc(100vh - 60px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px auto;
+  text-align: center;
+  color: white;
+}
+
+.ee a {
+  color: white;
+}
+
+.ee a:hover {
+  border-bottom-color: white;
+}
+
+.sd {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 150px;
+}
+
+.sd img {
+  max-height: 100%;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.greet h2 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.greet p {
+  color: white;
+  font-weight: bold;
+  width: 500px;
+}
+
+.no-mobile {
+  height: 100vh;
+  width: 100vw;
+  background: red;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.filter {
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.418);
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+
+.about-me {
+  width: 90%;
+  height: 250px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  background: rgb(255, 78, 78);
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.about-me img {
+  max-height: 90%;
+  margin: 10px;
+}
+
+.about-me p {
+  max-width: 700px;
+  
+  color: white;
+}
+
+.footer {
+  margin-top: 100px;
+  min-height: 250px;
+  width: 100%;
+  display: flex;
+  background: rgb(240, 240, 240);
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.footer .author {
+  height: 240px;
+  width: 240px;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.medium {
+  font-weight: bold;
+}
+
+.small {
+  font-style: italic;
+  margin: 7px;
+  font-weight: lighter;
+}
+
+.footer .author img {
+  max-height: 40%;
+  margin: 10px;
+}
+
+.social-links {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.e {
+  display: inline-block;
+  margin: 10px;
+  color: black;
+}
+
+.smaller {
+  color: rgb(61, 61, 61);
+  font-weight: bold;
+  font-size: 13px;
+  font-family: "Arial", sans-serif;
+  margin: 15px;
+}
+
+.work {
+  width: 90%;
+  min-height: 250px;
+  margin: 10px auto;
+  margin-top: 100px;
+  background: rgba(216, 216, 216, 0.219);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.work-imgs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+}
+.work-img {
+  max-height: 100%;
+  min-height: 100%;
+  border-radius: 6px;
+}
+
+.ro-account {
+  padding: 15px;
+  color: red;
+  font-weight: bold;
+  margin: 10px;
+  border-radius: 50px;
+  font-size: 14px;
+  border: solid 1px red;
+  transition: .3s;
+  font-family: "poppins", sans-serif;
+}
+
+.ro-account:hover {
+  background: red;
+  color: white;
+  border: none;
+}
+
+
+
+.cool-people {
+  width: 90%;
+  min-height: 250px;
+  margin: 10px auto;
+  margin-top: 100px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+
+.cool-people .card {
+  height: 475px;
+  width: 400px;
+  background: white;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 28px 100px 0px;
+  margin: 20px;
+}
+
+.cool-people .pfp {
+  max-height: 150px;
+  border-radius: 50%;
+  position: relative;
+  top: -75px;
+  left: calc(50% - 75px);
+}
+
+.cool-people .username {
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  margin-top: -45px;
+  font-size: 25px;
+}
+
+.cool-people .mini-info {
+  width: 100%;
+  text-align: center;
+  margin-top: -10px;
+  font-size: 15px;
+  color: gray;
+}
+
+
+.cool-people .middle {
+  box-sizing: border-box;
+  width: 95%;
+  height: 150px;
+  background: rgb(245, 245, 245);
+  margin: 10px auto;
+  border-radius: 6px;
+  border-left: 2.5px rgb(255, 108, 108) solid;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 10px;
+  color: rgb(83, 83, 83);
+  font-size: 15px;
+  line-height: 17px;
+  padding-right: 35px;
+  overflow: scroll;
+}
+
+.cool-people .bottom {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  height: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cool-people .bottom a {
+  padding: 10px 20px 10px 20px;
+  border: solid 1px rgb(255, 108, 108);
+  color: rgb(255, 108, 108);
+  background: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+}
+.cool-people .bottom a:hover {
+  background: rgb(255, 108, 108);
+  color: white;
+}
+
+
+
+.img-back {
+  width: 350px;
+  height: 250px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  border-radius: 10px;
+  border: solid 1px rgb(220, 220, 220);
+}
+
+.img-back:hover {
+  box-shadow: 0 10px 10px 10px #eee
+}
+
+
+
+.patch {
+  width: 80vw;
+  height: 80vh;
+  position: fixed;
+  top: 10%;
+  display: none;
+  left: 10%;
+  background: white;
+  z-index: 3;
+  border-radius: 10px;
+  padding: 30px;
+  overflow: scroll;
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+
+.filter {
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.418);
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.patch span {
+  padding: 10px;
+  color: rgb(86, 86, 86);
+  font-weight: bold;
+}
+.patch .err {
+  padding: 7px;
+  border-radius: 4px;
+  color: white;
+  background: rgb(255, 84, 84);
+}
+
+.patch p {
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  margin-bottom: 35px;
+  margin-left: 20px;
+}
+
+.patch h1 {
+  margin-bottom: 35px;
+}
+
+@media screen and (max-width: 850px){
+  body {
+    overflow-x: hidden;
+  }
+  .discord {
+    color: blue;
+    background: none;
+    box-sizing: border-box;
+  }
+  .about-me {
+    flex-direction: column;
+    height: auto;
+  }
+  .about-me img {
+    max-height: 100px;
+  }
+  .nav .middle {
+    display: none;
+  }
+  .nav .left {
+    width: 50%;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
